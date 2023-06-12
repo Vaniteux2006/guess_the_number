@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <main class="princ">
+        <h1 class="title">GUESS THE SECRET NUMBER</h1>
+        <br>
+        <h3 class="subtitle">The secret number is between <strong id="minor">1</strong> and <strong id="major">100</strong>. Your objective is to guess who is the secret number</h3>
+        <div id="kicktry" class="message">
+            <div class="said">You had said:</div>
+            <span class="box"></span>
+        </div>
+
+    </main>
+    <script src="scripts/roulette.js"></script>
+    <script src="scripts/webspeechapi.js"></script>
+    <script src="scripts/valueChecker.js"></script>
+</body>
+<!-- # Seta pra baixo
+    <i class="fa-solid fa-arrow-down"></i>
+    # X para errado
+    <i class="fa-solid fa-xmark"></i>
+    # Check para acertado
+    <i class="fa-solid fa-check"></i>
+-->
+</html>
